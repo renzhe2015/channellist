@@ -12,5 +12,6 @@ public class TVSrcConst
 	public static final int SOURCE_HDMI1   = TvManager.SOURCE_HDMI1;// jinshujing
 	public static final int SOURCE_HDMI2   = TvManager.SOURCE_HDMI2;//
 	public static final int SOURCE_HDMI3   = TvManager.SOURCE_HDMI3;//
+	public static final int SOURCE_HDMI4   = TvManager.SOURCE_HDMI4;//
 	public static final int SOURCE_USB   =TvManager.SOURCE_PLAYBACK ;//
 }
