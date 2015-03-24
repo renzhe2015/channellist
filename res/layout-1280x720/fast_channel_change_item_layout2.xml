@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/channellist_item_encry"
+        android:layout_width="20.666668px"
+        android:layout_height="20.666668px"       
+        />
+    <TextView
+        android:id="@+id/channellist_item_icon"
+        android:layout_width="20.666668px"
+        android:layout_height="21.333334px"  
+             
+        />
+
+    <TextView
+        android:id="@+id/channellist_item_text_number"
+        android:layout_width="53.333336px"
+        android:layout_height="45px"
+        android:gravity="center" 
+        android:textSize="23.333334px"
+        android:textColor="#FFAAAAAA"
+        android:singleLine="true"/>
+
+    <FrameLayout 
+        android:layout_width="146.66667px"
+        android:layout_height="45px">
+	    <TextView
+	        android:id="@+id/channellist_item_text_name"
+	        android:layout_width="146.66667px"
+	        android:layout_height="45px"
+	        android:gravity="left|center"
+	        android:textColor="#FFAAAAAA"
+	        android:textSize="23.333334px" 
+	        android:singleLine="true"
+	        android:layout_marginLeft="6.666667px"
+	        android:ellipsize="end"
+	        />
+	       <EditText
+	        android:id="@+id/channellist_item_text_name_edit"
+	        android:layout_width="146.66667px"
+	        android:layout_height="45px"
+	        android:gravity="left|center"
+	        android:textSize="23.333334px" 
+	        android:maxLength="10"
+	        android:singleLine="true"
+	        android:imeOptions="normal"
+	        android:cursorVisible="false"
+	        android:textColor="@color/font_focus_color"
+	        android:textColorHint="@color/font_focus_color"
+	        android:background="@drawable/translucent"
+	        android:layout_marginLeft="6.666667px"
+	        />
+	    
+    </FrameLayout>
+      <TextView
+        android:id="@+id/channellist_item_favorite"
+        android:background="@drawable/favorite"
+        android:layout_marginLeft="13.333334px"
+        android:layout_width="20.666668px"
+        android:layout_height="21.333334px"
+        />
+
+</LinearLayout>

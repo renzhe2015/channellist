@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">喜爱频道</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="a_channel">模拟频道</string>
+    <string name="source_tip">按“菜单”键注释信源信息</string>
+    <string name="atv_channellist_tips">请按“菜单”键编辑或收藏</string>
+	<string name="dtv_channellist_tips">请按“菜单”键收藏频道</string>
+	<string name="atv_channellist_tips1">请按“菜单”键退出编辑或收藏</string>
+	<string name="dtv_channellist_tips1">请按“菜单”键退出收藏</string>
+	<string name="channellist_all">全部频道</string>
+	<string name="channellist_network_channel">互联网频道</string>
+	<string name="channellist_favorite">收藏频道</string>
+	<string name="channellist_addfavorite">收藏</string>
+	<string name="channellist_delfavorite">取消收藏</string>
+	<string name="channellist_nameedit">编辑</string>
+	<string name="ATV">模拟电视</string>
+    <string name="DTV">数字电视</string>
+    <string name="IDTV">IDTV</string>
+    <string name="AV1">视频1</string>
+    <string name="AV2">视频2</string>
+    <string name="AV3">视频3</string>
+    <string name="SV1">SV1</string>
+    <string name="SV2">SV2</string>
+    <string name="YPP1">COMPONENT</string>
+    <string name="HDMI1">HDMI1</string>
+    <string name="HDMI2">HDMI2</string>
+    <string name="HDMI3">HDMI3</string>
+    <string name="BROWSER">Browser</string>
+    <string name="PC">电脑</string>
+    <string name="tcl_source_search">智搜</string>
+     <string name="remind">请切换信源至模拟信号或数字信号</string>
+</resources>

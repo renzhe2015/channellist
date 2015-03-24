@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.sourcelist.bean.OdmSourceItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sourceitem_linear"   
+    android:layout_width="300.0px"
+    android:layout_height="50.666668px" 
+    android:layout_marginLeft="0.0px"
+ 
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/sourceitem_linear2"   
+        android:layout_width="300.0px"
+        android:layout_height="50.666668px"
+        android:layout_marginTop="0.0px"
+        android:background="@drawable/bgmiddle"
+        android:orientation="horizontal" >
+        
+
+        <ImageView
+            android:id="@+id/imagesource"
+            android:layout_width="39.0px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0px"
+            android:layout_marginLeft="26.666668px">                        
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sourceitem"
+            android:layout_width="105.0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="36.666668px"
+            android:layout_marginTop="5.0px"
+            android:textColor="@color/white"
+            android:textSize="23.333334px">
+        </TextView>
+        
+        
+        <!--EditText  
+        android:id="@+id/source_edit"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6.666667px"
+        android:singleLine="true"
+       android:focusable="true"
+        android:maxLength="5"--> 
+        
+  <!--Button
+			android:text="@string/alert_ok"
+			android:id="@+id/source_edit"
+			android:textSize="12.0sp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:layout_marginLeft="6.666667px"
+			android:background="@drawable/button_selector">
+      
+  </Button-->        
+    
+   <TextView
+            android:id="@+id/source_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="6.666667px"
+            android:layout_marginTop="5.0px"
+            android:ellipsize="marquee" 
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"  
+            android:textColor="@color/white"
+            android:textSize="23.333334px">
+   </TextView>
+    
+    <EditText
+            android:id="@+id/source_edit_input"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0.6666667px"
+            android:layout_marginTop="5.0px"            
+			android:maxLength="8"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="23.333334px"
+            android:imeOptions="actionDone|flagNoFullscreen"/>
+       
+    </LinearLayout>
+
+</com.tcl.sourcelist.bean.OdmSourceItem>

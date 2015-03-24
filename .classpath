@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="F:/2984/TCLTV/lib_rt2984/classes.jar" sourcepath="F:/2984/framework-rt2984/RT2984.zip"/>
+	<classpathentry kind="lib" path="F:/2984/TCLTV/lib_rt2984/core-libart.jar"/>
+	<classpathentry kind="lib" path="F:/2984/TCLTV/lib_rt2984/framework-base.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

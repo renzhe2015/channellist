@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="300.0px"
+    android:layout_height="730.0px"
+    android:layout_marginLeft="0.0px"
+    android:layout_marginTop="0.0px"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <!--
+        Button 
+        android:id="@+id/smartsource_button" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="80.66667dip"
+		android:gravity="center"	
+		android:layout_gravity="top"
+		android:paddingLeft="6.666667px"
+		android:drawableLeft="@drawable/search"
+		android:background="@drawable/zhisou_bg"
+		android:textSize="13.333334sp"
+		android:textColor="@color/white"
+		android:layout_width="wrap_content"
+		android:focusableInTouchMode="true"
+        android:text="@string/smart_source"
+        Button
+    -->
+
+    <LinearLayout
+        android:layout_width="300.0px"
+        android:layout_height="33.333336px"
+        android:layout_marginLeft="0.0px"
+        android:layout_marginTop="0.0px"
+        android:background="@drawable/bgup" >
+
+        <!--
+      <LinearLayout
+		        android:id="@+id/zhisou_button"
+		        android:layout_width="170.0px"
+		        android:layout_height="53.333336px"
+		        android:background="@drawable/zhisou_button_selector"
+		        android:clickable="true"
+		        android:focusable="true"
+		      
+		        android:layout_marginLeft="47.333336px"
+		        android:layout_marginTop="43.333336px"
+		        android:orientation="horizontal" >
+		
+		        <TextView
+		            android:id="@+id/zhisou_icon"
+		            android:layout_width="38.0px"
+		            android:layout_height="38.0px"
+		            android:layout_gravity="center"
+		            android:background="@drawable/search" 
+		            android:layout_marginLeft="23.333334px"/>
+		
+		        <TextView
+		            android:id="@+id/zhisou_text"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_gravity="center"
+		            android:gravity="center_vertical"
+		            android:text="@string/tcl_source_search"
+		            android:textColor="#FFD8D8D8"
+		            android:textSize="22.666668px" 
+		            android:layout_marginLeft="20.0px"/>
+      </LinearLayout>
+        -->
+    </LinearLayout>
+
+    <!--
+              TextView
+            android:id="@+id/up_arrow"
+            android:layout_width="35.333336px"
+            android:layout_height="35.333336px"
+            android:layout_gravity="center"
+            android:background="@drawable/up_arrow" 
+            android:layout_marginLeft="218.66667px"
+    -->
+
+
+    <!--
+             ImageView
+	         android:id="@+id/up_arrow"
+	         android:layout_width="26.666668px"
+	         android:layout_height="26.666668px"
+	         android:layout_marginBottom="0.0px"
+	         android:layout_marginLeft="218.66667px"
+	         android:src="@drawable/sourceup_arrow"
+    -->
+
+    <LinearLayout
+        android:id="@+id/ll_main_menu"
+        android:layout_width="300.0px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.3333334px"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/insrc_mListView"
+            android:layout_width="300.0px"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0.0px"
+            android:layout_marginTop="0.0px"
+            android:divider="#00000000"
+            android:dividerHeight="1.3333334px"
+            android:drawSelectorOnTop="true"
+            android:listSelector="@drawable/odm_insrc_selector" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300.0px"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0.0px"
+        android:layout_marginTop="0px"
+        android:background="@drawable/bgdown" >
+
+        <TextView
+            android:id="@+id/souce_tip"
+            android:layout_width="300.0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36.666668px"
+            android:layout_marginTop="13.333334px"
+            android:text="@string/source_tip"
+            android:textColor="@color/white"
+            android:textSize="16.0px" >
+        </TextView>
+
+        <!--
+             ImageView
+		         android:id="@+id/down_arrow"
+		         android:layout_width="26.666668px"
+		         android:layout_height="26.666668px"
+		         android:layout_marginLeft="218.66667px"
+		         android:layout_marginTop="0.0px"
+		         android:src="@drawable/sourcedown"
+        -->
+
+    </LinearLayout>
+
+</LinearLayout>

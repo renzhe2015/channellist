@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/channellist_item_encry"
+        android:layout_width="31px"
+        android:layout_height="31px"       
+        />
+    <TextView
+        android:id="@+id/channellist_item_icon"
+        android:layout_width="31px"
+        android:layout_height="32px"  
+             
+        />
+
+    <TextView
+        android:id="@+id/channellist_item_text_number"
+        android:layout_width="80px"
+        android:layout_height="68px"
+        android:gravity="center" 
+        android:textSize="35px"
+        android:textColor="#FFAAAAAA"
+        android:singleLine="true"/>
+
+    <FrameLayout 
+        android:layout_width="220px"
+        android:layout_height="68px">
+	    <TextView
+	        android:id="@+id/channellist_item_text_name"
+	        android:layout_width="220px"
+	        android:layout_height="68px"
+	        android:gravity="left|center"
+	        android:textColor="#FFAAAAAA"
+	        android:textSize="35px" 
+	        android:singleLine="true"
+	        android:layout_marginLeft="10px"
+	        android:ellipsize="end"
+	        />
+	       <EditText
+	        android:id="@+id/channellist_item_text_name_edit"
+	        android:layout_width="220px"
+	        android:layout_height="68px"
+	        android:gravity="left|center"
+	        android:textSize="35px" 
+	        android:maxLength="10"
+	        android:singleLine="true"
+	        android:imeOptions="normal"
+	        android:cursorVisible="false"
+	        android:textColor="@color/font_focus_color"
+	        android:textColorHint="@color/font_focus_color"
+	        android:background="@drawable/translucent"
+	        android:layout_marginLeft="10px"
+	        />
+	    
+    </FrameLayout>
+      <TextView
+        android:id="@+id/channellist_item_favorite"
+        android:background="@drawable/favorite"
+        android:layout_marginLeft="20px"
+        android:layout_width="31px"
+        android:layout_height="32px"
+        />
+
+</LinearLayout>

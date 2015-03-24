@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChannelList</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="a_channel">Analog channel</string>
+    <string name="source_tip">Press "menu" key annotated source information</string>
+    <string name="atv_channellist_tips">Press "menu" key to edit or collect</string>
+	<string name="dtv_channellist_tips">Press "Menu" key to collect channels</string>
+	<string name="atv_channellist_tips1">Press "menu" key to exit</string>
+	<string name="dtv_channellist_tips1">Press "menu" key to exit</string>
+	<string name="channellist_all">All channel</string>
+	<string name="channellist_network_channel">Network channel</string>
+	<string name="channellist_favorite">Favorite Channel</string>
+	<string name="channellist_addfavorite">Favorite</string>
+	<string name="channellist_delfavorite">Cancel Favorite</string>
+	<string name="channellist_nameedit">Edit</string>
+	<string name="ATV">ATV</string>
+    <string name="DTV">DTV</string>
+    <string name="IDTV">IDTV</string>
+    <string name="AV1">AV1</string>
+    <string name="AV2">AV2</string>
+    <string name="AV3">AV3</string>
+    <string name="SV1">SV1</string>
+    <string name="SV2">SV2</string>
+    <string name="YPP1">COMPONENT</string>
+    <string name="HDMI1">HDMI1</string>
+    <string name="HDMI2">HDMI2</string>
+    <string name="HDMI3">HDMI3</string>
+    <string name="BROWSER">Browser</string>
+    <string name="PC">PC</string>
+    <string name="USB">USB</string>
+    <string name="tcl_source_search">Search</string>
+    <string name="remind">Please change source to ATV or DTV</string>
+</resources>
